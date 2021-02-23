@@ -1,0 +1,134 @@
+@media (max-width: 1024px) {
+  header.section .container {
+    max-width: none;
+    height: auto;
+    padding: 0 20px;
+    display: block;
+  }
+
+  header .menu-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .logo {
+    padding: 12px 0;
+    margin-right: 0;
+  }
+
+  header .main-menu {
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  header .main-menu li {
+    border-top: 1px solid #e5e5e5;
+  }
+
+  header .main-menu li a {
+    padding: 16px 0;
+  }
+
+  header .sign-group {
+    flex-direction: column;
+    padding: 10px 0 20px;
+  }
+
+  .sign-group .btn-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header .btn-group .sign-in {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  #search-form {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 12px;
+  }
+
+  #search-form .input--text {
+    width: 100%;
+    height: 42px;
+    text-align: center;
+  }
+
+  header .sub-menu {
+    margin-top: 12px;
+  }
+
+  header .toggle {
+    display: none;
+  }
+
+  header .toggle.on {
+    display: flex;
+  }
+
+  #toggle-btn {
+    display: block;
+    background: url("../img//toggle-btn.svg");
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  .section--visual .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+  }
+
+  .section--visual .summary {
+    margin: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #sign-form {
+    width: auto;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  /* FEATURE */
+  .section--feature .tiles li {
+    flex-basis: 50%;
+  }
+
+  .section--feature .tiles li img {
+    padding: 14px 30% 24px;
+  }
+
+  /* WHERE-IS */
+  .section--where-is .container {
+    padding: 80px 20px 0 20px;
+  }
+
+  /* PRICING */
+  .section--pricing .container {
+    padding: 80px 20px;
+  }
+
+  /* FOOTER */
+  .footer .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer .links:last-child {
+    margin-bottom: 20px;
+  }
+
+  .footer .logo {
+    display: none;
+  }
+}
