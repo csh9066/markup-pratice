@@ -10,6 +10,11 @@
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/29d7ba94bd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
   <header class="header">
@@ -48,5 +53,55 @@
       </div>
     </div>
   </header>
+  <section class="hero">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-color: #0F0F0F">
+          <div class="container">
+            <div class="cover-left">
+              <div class="hero__tags">
+                <div class="bg-navy">여섯번째 주자</div>
+                <div class="bg-navy">D-4</div>
+              </div>
+              <div class="hero__title">소띠 지식공유자와 함께하는 <br> 덕담 할인 릴레이
+              </div>
+              <p class="hero__desc"">#딱4일만할인 #인공지능 #머신러닝<br>#덕담릴레이 #오늘은누구죠</p>  
+            </div>
+            <div class="cover-right">
+              <img src="./images/banner_01.jpg" alt="소띠 지식공유자와 함께하는
+              덕담 할인 릴레이">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-color: #F5F7F9;">
+          <div class="container">
+            <div class="cover-left">
+              <div class="hero__tags">
+                <div class="bg-lightgreen">여섯번째 주자</div>
+                <div class="bg-lightgreen">D-4</div>
+              </div>
+              <div class="hero__title" style="color: #333333">
+                #24. 꽤 쓸만한 <br>코딩테스트 가이드 🏃
+              </div>
+              <p class="hero__desc" style="color: #333333">
+                #꿀팀듬뿍코테가이드<br> #코테도전기는덤
+              </p>  
+            </div>
+            <div class="cover-right">
+              <img src="./images/banner_02.png" alt="#24. 꽤 쓸만한 코딩테스트 가이드">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto',
+      autoplay: {
+        delay: 5000,
+      },
+    });
+  </script>
 </body>
 </html>
